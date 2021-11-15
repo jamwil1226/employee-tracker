@@ -3,7 +3,11 @@ const router = express.Router();
 const db = require('../../db/connection');
 
 router.get('/roles', (req, res) => {
-    const sql = `SELECT * FROM roles`;
+    const sql = `SELECT roles.*, departments.dept_name
+    AS department
+    FROM roles
+    LEFT JOIN departments
+    ON roles.dept_id = departments.id`;
     db.query(sql, (err, rows) => {
       if (err) {
         res.status(500).json({ error: err.message });
@@ -17,7 +21,12 @@ router.get('/roles', (req, res) => {
 });
 
 router.get('/roles/:id', (req, res) => {
-    const sql = `SELECT * FROM roles WHERE id = ?`;
+    const sql = `SELECT roles.*, departments.dept_name
+    AS department
+    FROM roles
+    LEFT JOIN departments
+    ON roles.dept_id = departments.id
+    WHERE id = ?`;
     const params = [req.params.id];
     db.query(sql, params, (err, row) => {
         if (err) {
