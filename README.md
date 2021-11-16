@@ -35,12 +35,24 @@ When you click on "View all roles" you will be given a table containing all the 
 ![View all roles](./images/view-roles.png)
 
 When you click on "View all employees" you will be given a table containing all the employees including the ID, first name, last name, job title, department, salary, and manager.
+
 ![View all employees](./images/view-employees.png)
 
+When you click on "Add a department" you will be asked to enter the name of the department you'd like to add. When finished entering the information, you will receive a confirmation that the department has been added and an updated departments table displaying the new department and the dept ID.
+
+![Add a department](./images/add-dept.png)
+
+When you click on "Add a role" you will be asked to enter the name of the role you'd like to add, the salary of the role, and the department ID for the new role. When finished entering the information, you will receive a confirmation that the role has been added and an updated roles table displaying the new role with ID, job title, salary, dept ID, and department.
+
+![Add a role](./images/add-role.png)
+
+
 When you click on "Add an employee" you will be asked to enter the employees first name, last name, role ID of the employee to set the salary, and the manager ID of the employee. When finished entering the information, you will receive a confirmation that the employee has been added and an updated employee list.
+
 ![Add Employee](./images/add-employee.png)
 
 When you click on "Update an employee role" you will be asked to enter the employees first name, last name, and the ID of the role for the employee that you'd like to update to. When finished entering the information, you will receive a confirmation that the role of the employee has been updated and an updated employee list.
+
 ![Update Employee](./images/update-employee-role.png)
 
 
