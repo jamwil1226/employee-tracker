@@ -70,7 +70,7 @@ GitHub: [@jamwil1226](https://github.com/jamwil1226/)
 Email: [jamwil1226@yahoo.com](mailto:jamwil1226@yahoo.com)
 
 
-### I hope you enjoy using this Note Taker app! I welcome all contributions and feedback!
+### I hope you enjoy using this Employee Tracker! I welcome all contributions and feedback!
 
 ### I look forward to hearing from you!
 
